@@ -1,0 +1,326 @@
+{
+   "firstAcademicYear": {
+        "year": "2022-2023",
+        "Everett": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            },
+            "YearOne": {
+                "class": 2026,
+                "capacity": 20,
+                "current": 22,
+                "in": 4,
+                "out": 2
+            }
+        },
+        "Spokane": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            },
+            "YearOne": {
+                "class": 2026,
+                "capacity": 20,
+                "current": 22,
+                "in": 4,
+                "out": 2
+            }
+        },
+        "Tri-Cities": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            },
+            "YearOne": {
+                "class": 2026,
+                "capacity": 20,
+                "current": 22,
+                "in": 4,
+                "out": 2
+            }
+        },
+        "Vancouver": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            },
+            "YearOne": {
+                "class": 2026,
+                "capacity": 20,
+                "current": 22,
+                "in": 4,
+                "out": 2
+            }
+        }
+   },
+    "secondAcademicYear": {
+        "year": "2023-2024",
+        "Everett": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            }
+        },
+        "Spokane": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            }
+        },
+        "Tri-Cities": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            }
+        },
+        "Vancouver": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            },
+            "YearTwo": {
+                "class": 2025,
+                "capacity": 20,
+                "current": 20,
+                "in": 4,
+                "out": 4
+            }
+        }
+    },
+    "thirdAcademicYear": {
+        "year": "2024-2025",
+        "Everett": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            }
+        },
+        "Spokane": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            }
+        },
+        "Tri-Cities": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            }
+        },
+        "Vancouver": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            },
+            "YearThree": {
+                "class": 2024,
+                "capacity": 20,
+                "current": 17,
+                "in": 6,
+                "out": 9
+            }
+        }
+    },
+    "fourthAcademicYear": {
+        "year": "2025-2026",
+        "Everett": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            }
+        },
+        "Spokane": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            }
+        },
+        "Tri-Cities": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            }
+        },
+        "Vancouver": {
+            "YearFour": {
+                "class": 2023,
+                "capacity": 20,
+                "current": 19,
+                "in": 8,
+                "out": 9
+            }
+        }
+    }
+}
