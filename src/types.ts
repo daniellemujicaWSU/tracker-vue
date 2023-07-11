@@ -12,3 +12,27 @@ export interface StudentCard {
     inCard: string[],
     typeCard: string[]
 }
+
+export interface ClassOverview {
+    class: string;
+    firstYear: CalendarYear;
+    SecondYear: CalendarYear;
+    ThirdYear: CalendarYear;
+    FourthYear: CalendarYear;
+  }
+  
+  export interface CalendarYear {
+    currentYear: boolean;
+    academicYear: string;
+    Everett: Campus;
+    Spokane: Campus;
+    Tricities: Campus;
+    Vancouver: Campus;
+  }
+  
+  export interface Campus {
+    capacity: number;
+    current: number;
+    in: number;
+    out: number;
+  }

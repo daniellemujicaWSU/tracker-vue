@@ -1,8 +1,7 @@
 {
-    "ClassName": "2026",
-    "firstYear": {
-        "currentYear": true,
-        "academicYear": "2022-2023",
+    "class": "2025",
+    "FirstYear": {
+        "academicYear": "2021-2022",
         "Everett": {
             "capacity": 23,
             "current": 24,
@@ -30,7 +29,7 @@
     },
     "SecondYear": {
         "currentYear": false,
-        "academicYear": "2023-2024",
+        "academicYear": "2022-2023",
         "Everett": {
             "capacity": 25,
             "current": 25,
@@ -58,7 +57,7 @@
     },
     "ThirdYear": {
         "currentYear": false,
-        "academicYear": "2024-2025",
+        "academicYear": "2023-2024",
         "Everett": {
             "capacity": 25,
             "current": 25,
@@ -86,7 +85,7 @@
     },
     "FourthYear": {
         "currentYear": false,
-        "academicYear": "2025-2026",
+        "academicYear": "2024-2025",
         "Everett": {
             "capacity": 25,
             "current": 25,
@@ -111,5 +110,5 @@
             "in": 0,
             "out": 0
         }
-    }
+    }     
 }
