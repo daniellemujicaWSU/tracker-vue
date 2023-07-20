@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <nav class="flex border-b-4 border-zinc-500 space-x-4">
+    <nav class="flex border-b-2 border-zinc-500 space-x-4">
         <RouterLink to="/">Campus Load Overview</RouterLink>
         <div v-for="year in graduatingYear" :key="year" class="flex space-x-4">
             <ClassLink :year="year"/>

@@ -1,115 +1,555 @@
 {
     "class": "2026",
-    "FirstYear": {
+    "ms1": {
         "currentYear": true,
         "academicYear": "2022-2023",
-        "Everett": {
-            "capacity": 23,
-            "current": 24,
-            "in": 2,
-            "out": 1
-        },
-        "Spokane": {
-            "capacity": 22,
-            "current": 23,
-            "in": 3,
-            "out": 2
-        },
-        "Tricities": {
-            "capacity": 20,
-            "current": 20,
-            "in": 2,
-            "out": 2
-        },
-        "Vancouver": {
-            "capacity": 15,
-            "current": 15,
-            "in": 2,
-            "out": 2
-        }
+        "campuses": [
+            {
+                "campus": "E",
+                "capacity": 23,
+                "current": 24,
+                "in": 2,
+                "out": 1,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "S",
+                "capacity": 22,
+                "current": 23,
+                "in": 3,
+                "out": 2,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "T",
+                "capacity": 20,
+                "current": 20,
+                "in": 2,
+                "out": 2,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "V",
+                "capacity": 15,
+                "current": 15,
+                "in": 2,
+                "out": 2,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            }
+        ]
     },
-    "SecondYear": {
+    "ms2": {
         "currentYear": false,
         "academicYear": "2023-2024",
-        "Everett": {
-            "capacity": 25,
-            "current": 25,
-            "in": 0,
-            "out": 0
-        },
-        "Spokane": {
-            "capacity": 23,
-            "current": 23,
-            "in": 0,
-            "out": 0
-        },
-        "Tricities": {
-            "capacity": 17,
-            "current": 17,
-            "in": 0,
-            "out": 0
-        },
-        "Vancouver": {
-            "capacity": 15,
-            "current": 15,
-            "in": 0,
-            "out": 0
-        } 
+        "campuses": [
+            {    
+                "campus": "E",
+                "capacity": 25,
+                "current": 25,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "S",
+                "capacity": 23,
+                "current": 23,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "T",
+                "capacity": 17,
+                "current": 17,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "V",
+                "capacity": 15,
+                "current": 15,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            } 
+        ]
     },
-    "ThirdYear": {
+    "ms3": {
         "currentYear": false,
         "academicYear": "2024-2025",
-        "Everett": {
-            "capacity": 25,
-            "current": 25,
-            "in": 0,
-            "out": 0
-        },
-        "Spokane": {
-            "capacity": 23,
-            "current": 23,
-            "in": 0,
-            "out": 0
-        },
-        "Tricities": {
-            "capacity": 17,
-            "current": 17,
-            "in": 0,
-            "out": 0
-        },
-        "Vancouver": {
-            "capacity": 15,
-            "current": 15,
-            "in": 0,
-            "out": 0
-        }
+        "campuses": [ 
+            {
+                "campus": "E",
+                "capacity": 25,
+                "current": 25,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "S",
+                "capacity": 23,
+                "current": 23,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "T",
+                "capacity": 17,
+                "current": 17,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "V",
+                "capacity": 15,
+                "current": 15,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            }
+        ]
     },
-    "FourthYear": {
+    "ms4": {
         "currentYear": false,
         "academicYear": "2025-2026",
-        "Everett": {
-            "capacity": 25,
-            "current": 25,
-            "in": 0,
-            "out": 0
-        },
-        "Spokane": {
-            "capacity": 20,
-            "current": 20,
-            "in": 0,
-            "out": 0
-        },
-        "Tricities": {
-            "capacity": 20,
-            "current": 20,
-            "in": 0,
-            "out": 0
-        },
-        "Vancouver": {
-            "capacity": 20,
-            "current": 20,
-            "in": 0,
-            "out": 0
-        }
-    }     
+        "campuses": [
+            {
+                "campus": "E",
+                "capacity": 25,
+                "current": 25,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "S",
+                "capacity": 20,
+                "current": 20,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "T",
+                "capacity": 20,
+                "current": 20,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "V",
+                "capacity": 20,
+                "current": 20,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Everett"
+                        },
+                        "in": {
+                            "date": "Sept 21, 2022",
+                            "campus": "Everett"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            }
+        ]
+    }  
 }

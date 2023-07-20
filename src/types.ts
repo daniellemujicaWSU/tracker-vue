@@ -1,38 +1,36 @@
-export interface CapacityCard {
-    cardHeader: string,
-    columnHeaders: string[],
-    columnData: string[]
-}
-
-export interface StudentCard {
-    profilePhoto: string,
-    name: string,
-    editStudent: string,
-    outCard: string[],
-    inCard: string[],
-    typeCard: string[]
-}
-
 export interface ClassOverview {
     class: string;
-    firstYear: CalendarYear;
-    SecondYear: CalendarYear;
-    ThirdYear: CalendarYear;
-    FourthYear: CalendarYear;
+    ms1: CalendarYear;
+    ms2: CalendarYear;
+    ms3: CalendarYear;
+    ms4: CalendarYear;
   }
   
-  export interface CalendarYear {
+export interface CalendarYear {
     currentYear: boolean;
     academicYear: string;
-    Everett: Campus;
-    Spokane: Campus;
-    Tricities: Campus;
-    Vancouver: Campus;
+    campuses: Campus[];
   }
   
-  export interface Campus {
+export interface Campus {
+    campus: string;
     capacity: number;
     current: number;
     in: number;
     out: number;
-  }
+    students: Student[];
+}
+  
+export interface Student {
+    img?: string,
+    name: string;
+    out: StudentDates;
+    in: StudentDates;
+    type: string;
+}
+  
+export interface StudentDates {
+    date: string;
+    campus: string;
+}
+  
