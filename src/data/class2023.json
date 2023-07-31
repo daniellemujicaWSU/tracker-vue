@@ -27,7 +27,7 @@
                         "name": "Jim Halbbert",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Spokane"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
@@ -52,19 +52,19 @@
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Spokane"
                         },
                         "type": "Research"
                     },
                     {
-                        "name": "Jim Halbbert",
+                        "name": "Stanley Hudson",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Spokane"
                         },
                         "type": "Research"
                     }
@@ -78,26 +78,26 @@
                 "out": 2,
                 "students": [
                     {
-                        "name": "Michael Scott",
+                        "name": "Pam Besley",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Vancouver"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "type": "Research"
                     },
                     {
-                        "name": "Jim Halbbert",
+                        "name": "Nellie Bertram",
                         "out": {
                             "date": "Apr 24, 2019",
                             "campus": "Everett"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "type": "Research"
                     }
@@ -111,26 +111,26 @@
                 "out": 2,
                 "students": [
                     {
-                        "name": "Michael Scott",
+                        "name": "Pete Miller",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Vancouver"
                         },
                         "type": "Research"
                     },
                     {
-                        "name": "Jim Halbbert",
+                        "name": "Jan Levison",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Vancouver"
                         },
                         "type": "Research"
                     }
@@ -150,10 +150,10 @@
                 "out": 0,
                 "students": [
                     {
-                        "name": "Michael Scott",
+                        "name": "Phyliss Lapin-Vance",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Spokane"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
@@ -183,26 +183,26 @@
                 "out": 0,
                 "students": [
                     {
-                        "name": "Michael Scott",
+                        "name": "Holly Flax",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Spokane"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Spokane"
                         },
                         "type": "Research"
                     },
                     {
-                        "name": "Jim Halbbert",
+                        "name": "Gabe Lewis",
                         "out": {
                             "date": "Apr 24, 2019",
                             "campus": "Everett"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Spokane"
                         },
                         "type": "Research"
                     }
@@ -219,11 +219,11 @@
                         "name": "Michael Scott",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "type": "Research"
                     },
@@ -231,11 +231,11 @@
                         "name": "Jim Halbbert",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Tricities"
                         },
                         "type": "Research"
                     }
@@ -256,7 +256,7 @@
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Vancouver"
                         },
                         "type": "Research"
                     },
@@ -264,11 +264,11 @@
                         "name": "Jim Halbbert",
                         "out": {
                             "date": "Apr 24, 2019",
-                            "campus": "Everett"
+                            "campus": "Vancouver"
                         },
                         "in": {
                             "date": "Sep 21, 2022",
-                            "campus": "Everett"
+                            "campus": "Vancouver"
                         },
                         "type": "Research"
                     }
@@ -324,6 +324,111 @@
                         "name": "Michael Scott",
                         "out": {
                             "date": "Apr 24, 2019",
+                            "campus": "Spokane"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Spokane"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Spokane"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Spokane"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "T",
+                "capacity": 17,
+                "current": 17,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Tricities"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Tricities"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Tricities"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Tricities"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            },
+            {
+                "campus": "V",
+                "capacity": 15,
+                "current": 15,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Vancouver"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Vancouver"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Vancouver"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Vancouver"
+                        },
+                        "type": "Research"
+                    }
+                ]
+            }
+        ]
+    },
+    "ms4": {
+        "currentYear": true,
+        "academicYear": "2022-2023",
+        "campuses": [
+            {
+                "campus": "E",
+                "capacity": 25,
+                "current": 25,
+                "in": 0,
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
                             "campus": "Everett"
                         },
                         "in": {
@@ -347,52 +452,103 @@
                 ]
             },
             {
-                "campus": "T",
-                "capacity": 17,
-                "current": 17,
-                "in": 0,
-                "out": 0
-            },
-            {
-                "campus": "V",
-                "capacity": 15,
-                "current": 15,
-                "in": 0,
-                "out": 0
-            }
-        ]
-    },
-    "ms4": {
-        "currentYear": true,
-        "academicYear": "2022-2023",
-        "campuses": [
-            {
-                "campus": "E",
-                "capacity": 25,
-                "current": 25,
-                "in": 0,
-                "out": 0
-            },
-            {
                 "campus": "S",
                 "capacity": 20,
                 "current": 20,
                 "in": 0,
-                "out": 0
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Spokane"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Spokane"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Spokane"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Spokane"
+                        },
+                        "type": "Research"
+                    }
+                ]
             },
             {
                 "campus": "T",
                 "capacity": 20,
                 "current": 20,
                 "in": 0,
-                "out": 0
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Tricities"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Tricities"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Tricities"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Tricities"
+                        },
+                        "type": "Research"
+                    }
+                ]
             },
             {
                 "campus": "V",
                 "capacity": 20,
                 "current": 20,
                 "in": 0,
-                "out": 0
+                "out": 0,
+                "students": [
+                    {
+                        "name": "Michael Scott",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Vancouver"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Vancouver"
+                        },
+                        "type": "Research"
+                    },
+                    {
+                        "name": "Jim Halbbert",
+                        "out": {
+                            "date": "Apr 24, 2019",
+                            "campus": "Vancouver"
+                        },
+                        "in": {
+                            "date": "Sep 21, 2022",
+                            "campus": "Vancouver"
+                        },
+                        "type": "Research"
+                    }
+                ]
             }
         ]
     }     

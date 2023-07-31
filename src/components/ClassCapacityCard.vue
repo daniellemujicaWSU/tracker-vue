@@ -25,7 +25,7 @@ const setCampusColor = (bgType: string, index: number) => {
 </script>
 
 <template>
-    <div class="border-2 border-black col-span-1 pt-2" v-if="date" :class="date.currentYear ? 'bg-pacific-blue border-pacific-blue' : ''">
+    <div class="border-2 border-black col-span-1 pt-2 transition-colors" v-if="date" :class="date.currentYear ? 'bg-pacific-blue border-pacific-blue' : 'bg-white'">
         <h2 class="pl-2 pb-5" :class="date.currentYear ? 'text-white' : ''">{{ date.academicYear }} ({{ year }})</h2>
         <table class="table-auto col-span-2 w-full">
                 <thead>

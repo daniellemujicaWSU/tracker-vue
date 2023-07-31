@@ -3,6 +3,8 @@ import class2023 from "./data/class2023.json"
 import class2024 from "./data/class2024.json"
 import class2025 from "./data/class2025.json"
 import class2026 from "./data/class2026.json"
+import history from "./data/history.json"
+import campusOverview from './data/campusOverview.json'
 
 export function makeServer({ environment = "development" } = {}) {
     const server = new Server({
@@ -11,7 +13,9 @@ export function makeServer({ environment = "development" } = {}) {
             class2023,
             class2024,
             class2025,
-            class2026
+            class2026,
+            history,
+            campusOverview
         },
         seeds(server) {
             server.loadFixtures()
@@ -29,6 +33,12 @@ export function makeServer({ environment = "development" } = {}) {
             })
             this.get("2026", () => {
                 return class2026
+            })
+            this.get("history", () => {
+                return history
+            })
+            this.get("campusOverview", () => {
+                return campusOverview
             })
         },
     })

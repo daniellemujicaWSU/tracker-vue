@@ -1,0 +1,76 @@
+{
+    "history": [
+        {
+            "name": "Michael Scott",
+            "out": {
+                "date": "Apr 24, 2019",
+                "campus": "Everett"
+            },
+            "in": {
+                "date": "Sep 21, 2022",
+                "campus": "Everett"
+            },
+            "type": "Research"
+        },
+        {
+            "name": "Jim Halbbert",
+            "out": {
+                "date": "Apr 24, 2019",
+                "campus": "Spokane"
+            },
+            "in": {
+                "date": "Sep 21, 2022",
+                "campus": "Everett"
+            },
+            "type": "Research"
+        },
+        {
+            "name": "Pam Besley",
+            "out": {
+                "date": "Apr 24, 2019",
+                "campus": "Vancouver"
+            },
+            "in": {
+                "date": "Sep 21, 2022",
+                "campus": "Tricities"
+            },
+            "type": "Research"
+        },
+        {
+            "name": "Nellie Bertram",
+            "out": {
+                "date": "Apr 24, 2019",
+                "campus": "Everett"
+            },
+            "in": {
+                "date": "Sep 21, 2022",
+                "campus": "Tricities"
+            },
+            "type": "Research"
+        },
+        {
+            "name": "Pete Miller",
+            "out": {
+                "date": "Apr 24, 2019",
+                "campus": "Tricities"
+            },
+            "in": {
+                "date": "Sep 21, 2022",
+                "campus": "Vancouver"
+            },
+            "type": "Research"
+        },
+        {
+            "name": "Jan Levison",
+            "out": {
+                "date": "Apr 24, 2019",
+                "campus": "Tricities"
+            },
+            "in": {
+                "date": "Sep 21, 2022",
+                "campus": "Vancouver"
+            },
+            "type": "Research"
+        }
+    ]
+}

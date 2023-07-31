@@ -7,8 +7,12 @@ import { RouterView } from 'vue-router';
 
 <template>
   <header>
-    <div class="container mx-auto">
-      <AddStudentButton/>
+    <div class="container mx-auto font-montserrat">
+      <div class="flex w-full">
+        <div class="mt-7 ml-auto">
+          <AddStudentButton/>
+        </div>  
+      </div>
       <TabNav/>
       <RouterView></RouterView>
     </div>

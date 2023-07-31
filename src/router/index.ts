@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import CampusLoadOverview from '../views/CampusLoadOverview.vue'
 import ClassOverview from '../views/ClassOverview.vue'
-import History from '../views/LoaHistory.vue'
+import LoaHistory from '../views/LoaHistory.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,9 +20,10 @@ const router = createRouter({
     {
       path: '/history',
       name: 'history',
-      component: History
+      component: LoaHistory
     },
-  ]
+  ],
+  linkActiveClass : 'text-pacific-blue border-b-4 border-pacific-blue transition',
 })
 
 export default router

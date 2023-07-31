@@ -1,3 +1,29 @@
+export interface AllCampusOverview {
+  everett:   CampusOverview;
+  spokane:   CampusOverview;
+  tricities: CampusOverview;
+  vancouver: CampusOverview;
+}
+
+export interface CampusOverview {
+  campus:        string;
+  clinicalYears: ClinicalYear[];
+}
+
+export interface ClinicalYear {
+  year:    string;
+  current: boolean;
+  classes: MSY[];
+}
+
+export interface MSY {
+  classYear: string;
+  capacity: string;
+  current:  string;
+  in:       string;
+  out:      string;
+}
+
 export interface ClassOverview {
     class: string;
     ms1: CalendarYear;
