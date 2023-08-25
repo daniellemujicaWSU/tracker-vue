@@ -1,5 +1,5 @@
 # tracker
-
+Node 18.4.2 update before doing an npm install
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
