@@ -48,15 +48,21 @@ export interface Campus {
 }
   
 export interface Student {
-    img?: string,
+    id: number;
+    img?: string;
     name: string;
-    out: StudentDates;
-    in: StudentDates;
     type: string;
+    reason?: string;
+    academicYear: string;
+    departDate: string;
+    departCampus: string;
+    returnDate: string;
+    returnCampus: string;
+    notes?: string;
 }
-  
-export interface StudentDates {
-    date: string;
-    campus: string;
+
+export interface History {
+  students: Student[]
 }
+
   

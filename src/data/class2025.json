@@ -13,27 +13,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Spokane"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Spokane",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     }
                 ]
             },
@@ -46,27 +42,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     },
                     {
                         "name": "Stanley Hudson",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     }
                 ]
             },
@@ -79,27 +71,23 @@
                 "students": [
                     {
                         "name": "Pam Besley",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Vancouver"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Vancouver",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     },
                     {
                         "name": "Nellie Bertram",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     }
                 ]
             },
@@ -112,27 +100,23 @@
                 "students": [
                     {
                         "name": "Pete Miller",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     },
                     {
                         "name": "Jan Levison",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms1"
                     }
                 ]
             }
@@ -151,27 +135,23 @@
                 "students": [
                     {
                         "name": "Phyliss Lapin-Vance",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Spokane"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Spokane",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     }
                 ]
             },
@@ -184,27 +164,23 @@
                 "students": [
                     {
                         "name": "Holly Flax",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Spokane"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Spokane",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     },
                     {
                         "name": "Gabe Lewis",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     }
                 ]
             },
@@ -217,27 +193,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     }
                 ]
             },
@@ -250,27 +222,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Vancouver"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Vancouver",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms2"
                     }
                 ]
             }
@@ -289,27 +257,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     }
                 ]
             },
@@ -322,27 +286,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Spokane"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Spokane",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Spokane"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Spokane",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     }
                 ]
             },
@@ -355,27 +315,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     }
                 ]
             },
@@ -388,27 +344,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Vancouver"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Vancouver",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Vancouver"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Vancouver",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms3"
                     }
                 ]
             }
@@ -427,27 +379,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Everett"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Everett"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Everett",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Everett",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     }
                 ]
             },
@@ -460,27 +408,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Spokane"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Spokane",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Spokane"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Spokane"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Spokane",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Spokane",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     }
                 ]
             },
@@ -493,27 +437,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Tricities"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Tricities"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Tricities",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Tricities",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     }
                 ]
             },
@@ -526,27 +466,23 @@
                 "students": [
                     {
                         "name": "Michael Scott",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Vancouver"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Vancouver",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
-                        "out": {
-                            "date": "Apr 24, 2019",
-                            "campus": "Vancouver"
-                        },
-                        "in": {
-                            "date": "Sep 21, 2022",
-                            "campus": "Vancouver"
-                        },
-                        "type": "Research"
+                        "departDate": "Apr 24, 2019",
+                        "departCampus": "Vancouver",
+                        "returnDate": "Sep 21, 2022",
+                        "returnCampus": "Vancouver",
+                        "reason": "Research",
+                        "type": "LOA",
+                        "academicYear": "ms4"
                     }
                 ]
             }

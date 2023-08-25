@@ -35,7 +35,7 @@ const setCampusColor = (campus: string, type: string) => {
                         <tr v-for="item, index in clinicalYear.classes" :key="index" class="text-center odd:bg-gray-100 even:bg-white">
                             <td class="pt-2 pb-2">{{ item.classYear }}</td>
                             <td class="pt-2 pb-2">{{ item.capacity }}</td>
-                            <td class="pt-2 pb-2" :class="[setCampusColor(campusName, 'ring'), 'rounded-full ring px-3.5 py-1.5']">{{ item.current }}</td>
+                            <td class="pt-2 pb-2"><span :class="[setCampusColor(campusName, 'ring'), 'rounded-full ring px-3.5 py-1.5']">{{ item.current }}</span></td>
                             <td class="pt-2 pb-2">{{ item.in }}</td>
                             <td class="pt-2 pb-2">{{ item.out }}</td>
                         </tr>        

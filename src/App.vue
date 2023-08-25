@@ -2,7 +2,9 @@
 import AddStudentButton from './components/AddStudentButton.vue';
 import TabNav from './components/TabNav.vue'
 import { RouterView } from 'vue-router';
-
+import StudentFormModal from './components/StudentFormModal.vue';
+import { useStudentFormStore } from '@/stores/studentForm'
+const studentForm = useStudentFormStore()
 </script>
 
 <template>
@@ -10,11 +12,12 @@ import { RouterView } from 'vue-router';
     <div class="container mx-auto font-montserrat">
       <div class="flex w-full">
         <div class="mt-7 ml-auto">
-          <AddStudentButton/>
+          <AddStudentButton />
         </div>  
       </div>
       <TabNav/>
       <RouterView></RouterView>
+      <StudentFormModal v-if="studentForm.showFormModal"></StudentFormModal>
     </div>
   </header>
 </template>

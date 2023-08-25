@@ -9,10 +9,11 @@ module.exports = {
     extend: {
           colors: {
             'pacific-blue': '#7093E3',
-            'everett': '#769183',
-            'spokane': '#C8B2D6',
-            'tricities': '#A09E6A',
+            'everett': '#117A49',
+            'spokane': '#C49FEE',
+            'tricities': '#B8A067',
             'vancouver': '#40BCC1',
+            'seafoam': '#42BA96'
           },
         },
         borderWidth: {
@@ -39,6 +40,7 @@ module.exports = {
         },
   },
   plugins: [
+    require('@tailwindcss/forms'),
     plugin(function({ addBase, theme }) {
       addBase({
         'h1': { 
@@ -47,6 +49,8 @@ module.exports = {
         },
         'h2': { fontSize: theme('fontSize.xl') },
         'h3': { fontSize: theme('fontSize.lg') },
+        'h5': {fontSize: theme('fontSize.md') },
+        'p':  {fontSize: theme('fontSize.xs') },
       })
     })
   ]

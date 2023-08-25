@@ -1,76 +1,58 @@
 {
-    "history": [
+    "students": [
         {
             "name": "Michael Scott",
-            "out": {
-                "date": "Apr 24, 2019",
-                "campus": "Everett"
-            },
-            "in": {
-                "date": "Sep 21, 2022",
-                "campus": "Everett"
-            },
-            "type": "Research"
+            "departDate": "Apr 24, 2019",
+            "departCampus": "Everett",
+            "returnDate": "Sep 21, 2022",
+            "returnCampus": "Everett",
+            "type": "LOA",
+            "reason": "Research"
         },
         {
             "name": "Jim Halbbert",
-            "out": {
-                "date": "Apr 24, 2019",
-                "campus": "Spokane"
-            },
-            "in": {
-                "date": "Sep 21, 2022",
-                "campus": "Everett"
-            },
-            "type": "Research"
+            "departDate": "Apr 24, 2019",
+            "departCampus": "Spokane",
+            "returnDate": "Sep 21, 2022",
+            "returnCampus": "Everett",
+            "type": "LOA",
+            "reason": "Admin"
         },
         {
             "name": "Pam Besley",
-            "out": {
-                "date": "Apr 24, 2019",
-                "campus": "Vancouver"
-            },
-            "in": {
-                "date": "Sep 21, 2022",
-                "campus": "Tricities"
-            },
-            "type": "Research"
+            "departDate": "Apr 24, 2019",
+            "departCampus": "Vancouver",
+            "returnDate": "Sep 21, 2022",
+            "returnCampus": "Tricities",
+            "type": "LOA",
+            "reason": "Military"
         },
         {
             "name": "Nellie Bertram",
-            "out": {
-                "date": "Apr 24, 2019",
-                "campus": "Everett"
-            },
-            "in": {
-                "date": "Sep 21, 2022",
-                "campus": "Tricities"
-            },
-            "type": "Research"
+            "departDate": "Apr 24, 2019",
+            "departCampus": "Everett",
+            "returnDate": "Sep 21, 2022",
+            "returnCampus": "Tricities",
+            "type": "LOA",
+            "reason": "Research"
         },
         {
             "name": "Pete Miller",
-            "out": {
-                "date": "Apr 24, 2019",
-                "campus": "Tricities"
-            },
-            "in": {
-                "date": "Sep 21, 2022",
-                "campus": "Vancouver"
-            },
-            "type": "Research"
+            "departDate": "Apr 24, 2019",
+            "departCampus": "Tricities",
+            "returnDate": "Sep 21, 2022",
+            "returnCampus": "Vancouver",
+            "type": "LOA",
+            "reason": "Personal"
         },
         {
             "name": "Jan Levison",
-            "out": {
-                "date": "Apr 24, 2019",
-                "campus": "Tricities"
-            },
-            "in": {
-                "date": "Sep 21, 2022",
-                "campus": "Vancouver"
-            },
-            "type": "Research"
+            "departDate": "Apr 24, 2019",
+            "departCampus": "Tricities",
+            "returnDate": "Sep 21, 2022",
+            "returnCampus": "Vancouver",
+            "type": "LOA",
+            "reason": "Medical"
         }
     ]
 }
