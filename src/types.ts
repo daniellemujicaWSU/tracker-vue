@@ -65,4 +65,7 @@ export interface History {
   students: Student[]
 }
 
+export interface StudentList {
+  names: string[]
+}
   

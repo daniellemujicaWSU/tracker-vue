@@ -1,8 +1,14 @@
 <script setup lang="ts">
-    import { RouterLink } from 'vue-router';
-    //api call to get class graduating year
-    import graduatingYear from '@/data/graduatingYear.json'
+    import { RouterLink } from 'vue-router'
+    import moment from 'moment'
     import ClassLink from "@/components/ClassLink.vue"
+
+    const graduatingYear = {
+        "MS4": moment().year(),
+        "MS3": moment().year() + 1,
+        "MS2": moment().year() + 2,
+        "MS1": moment().year() + 3
+    }
 </script>
 
 <template>

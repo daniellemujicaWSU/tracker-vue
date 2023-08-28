@@ -5,6 +5,7 @@ import class2025 from "./data/class2025.json"
 import class2026 from "./data/class2026.json"
 import history from "./data/history.json"
 import campusOverview from './data/campusOverview.json'
+import studentNames from './data/studentNames.json'
 
 export function makeServer({ environment = "development" } = {}) {
     const server = new Server({
@@ -15,14 +16,15 @@ export function makeServer({ environment = "development" } = {}) {
             class2025,
             class2026,
             history,
-            campusOverview
+            campusOverview,
+            studentNames
         },
         seeds(server) {
             server.loadFixtures()
         },
         routes() {
             this.namespace = "api"
-            this.get("/2023", () => {
+            this.get("2023", () => {
                 return class2023
             })
             this.get("2024", () => {
@@ -39,6 +41,9 @@ export function makeServer({ environment = "development" } = {}) {
             })
             this.get("campusOverview", () => {
                 return campusOverview
+            })
+            this.get("studentNames", () => {
+                return studentNames
             })
         },
     })

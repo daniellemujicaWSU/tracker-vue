@@ -1,17 +1,18 @@
 <script setup lang="ts">
-    import { computed, ref, reactive } from 'vue'
-    import { useApiCalls } from '@/stores/apiCalls'
+    import { computed, ref, reactive, onMounted } from 'vue'
     import { useStudentFormStore } from '@/stores/studentForm'
-    import { useVuelidate } from "@vuelidate/core";
-    import { required } from "@vuelidate/validators";
+    import { useVuelidate } from "@vuelidate/core"
+    import { required } from "@vuelidate/validators"
+    import { type Student } from '@/types'
 
     const studentForm = useStudentFormStore()
-    const apiCall = useApiCalls()
-    const changeType = ref(null)
-
-    const state = reactive({
+    const changeType = ref([])
+    const studentNameList = studentForm.studentNamesList.names
+    const selectedName = ref('')
+    
+    const state: Student = reactive({
         name: studentForm.studentData.name,
-        changeType: studentForm.studentData.type,
+        type: studentForm.studentData.type,
         reason: studentForm.studentData.reason,
         academicYear: studentForm.studentData.academicYear,
         departDate: studentForm.studentData.departDate,
@@ -20,8 +21,7 @@
         returnCampus: studentForm.studentData.returnCampus,
         notes: studentForm.studentData.notes,
         id: studentForm.studentData.id
-    });
-   
+    })
     const rules = computed(() => {
         return {
             name: { required },
@@ -33,23 +33,38 @@
             returnCampus: { required }
         }
     })
-
-    const v$ = useVuelidate(rules, state);
-    
-
+    const v$ = useVuelidate<Student>(rules, state);
     const disabled = computed(() => {
-        return changeType.value === 'LOA' ? true : false
+        return state.type === 'LOA' ? true : false
     })
-
     const submitForm = () => {
         v$.value.$validate();
         if (!v$.value.$error) {
-            console.log('submit form', state)
-            apiCall.updateStudent(state)
-        } 
-        // type ObjectKey = keyof typeof apiCall.classData;
-        // let academicYear = studentForm.studentData.academicYear as ObjectKey
-        
+            studentForm.updateStudent(state)
+        }
+    }
+
+    const searchStudents = computed(() => {
+        if (selectedName.value === '') {
+            return []
+        }
+
+        let matches = 0
+
+        return studentNameList.filter(student => {
+            if (
+                student.toLowerCase().includes(state.name.toLowerCase())
+                && matches < 10
+            ) {
+                matches++
+                return student
+            }
+        })
+    })
+
+    const selectStudent = (name: string) => {
+      state.name = name
+      selectedName.value = ''
     }
 </script>
 
@@ -63,13 +78,26 @@
             <form class="grid grid-cols-4 gap-4 text-slate-600">
                 <label class="block" for="student">
                     <span>Student</span>
-                    <input class="block rounded-md border-gray-300 shadow-sm w-full" type="text" id="student" v-model="state.name">
+                    <input class="block rounded-md border-gray-300 shadow-sm w-full" type="text" id="student" v-model="state.name" placeholder="Find Student..." @keyup="selectedName = state.name">
+                    <ul v-if="searchStudents.length" class="w-full rounded bg-white border border-gray-300 px-4 py-2 space-y-1 absolute z-10">
+                        <li class="px-1 pt-1 pb-2 font-bold border-b border-gray-200">
+                        Showing {{ searchStudents.length }} of {{ studentNameList.length }} results
+                        </li>
+                        <li
+                            v-for="name in searchStudents"
+                            :key="name"
+                            @click="selectStudent(name)"
+                            class="cursor-pointer hover:bg-gray-100 p-1"
+                        >
+                            {{ name }}
+                        </li>
+                    </ul>
                     <span v-if="v$.name.$error" class="text-red-600 text-xs">Student name is required</span>
                 </label>
                 <label class="block" for="type">
                     <span>Type</span>
-                    <select class="block rounded-md border-gray-300 shadow-sm w-full" name="changeType" id="type" ref="changeType" v-model="state.changeType">
-                        <option value="LOA">LOA</option>
+                    <select class="block rounded-md border-gray-300 shadow-sm w-full" name="changeType" id="type" ref="changeType" v-model="state.type">
+                        <option value="LOA" selected>LOA</option>
                         <option value="campusChange">Campus Change</option>
                     </select>
                     <span v-if="v$.changeType.$error" class="text-red-600 text-xs">Type is required</span>

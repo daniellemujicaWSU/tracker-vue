@@ -5,7 +5,7 @@ export const useApiCalls = defineStore('apiCalls', {
     state: () => {
       return {
         classData: {} as ClassOverview,
-        history: {} as History
+        history: {} as History,
       }
     },
     //actions meant to mutate store data
@@ -17,11 +17,6 @@ export const useApiCalls = defineStore('apiCalls', {
         async getHistoryData() {
             const response = await fetch(`/api/history`)
             this.history = await response.json()
-            console.log(this.history)
         },
-        async updateStudent(student: {}) {
-            console.log(student, ' in state')
-            //create or update student
-        }
     }
   })
