@@ -1,5 +1,5 @@
 # tracker
-Node 18.4.2 update before doing an npm install
+Node 18.14.2 update before doing an npm install
 
 ## Recommended IDE Setup
 
