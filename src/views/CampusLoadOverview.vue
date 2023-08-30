@@ -17,7 +17,7 @@ campusOverview.getCampusData()
             <h1 class="text-black pb-5">Campus Overview</h1>
             <iconToolTip :msg="studentCardMsg" class="ml-1"></iconToolTip>
         </div>
-        <div v-if="campusOverview.campusData" class="grid grid-cols-4 gap-2 justify-items-stretch mb-6">
+        <div v-if="!campusOverview.loading" class="grid grid-cols-4 gap-2 justify-items-stretch mb-6">
             <div  v-for="(campus,index) in campusOverview.campusData" :key="index">
                 <campusColumn :overview="campus"></campusColumn>
             </div>

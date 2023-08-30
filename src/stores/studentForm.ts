@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { type Student, type StudentList } from '@/types'
+import axios from "axios"
 
 export const useStudentFormStore = defineStore('studentForm', {
   state: () => {
@@ -21,8 +22,9 @@ export const useStudentFormStore = defineStore('studentForm', {
       }  
     },
     async getStudentNames() {
-      const response = await fetch(`/api/studentNames`)
-      return this.studentNamesList = await response.json()
+      const response = await axios.get(`/api/studentNames`)
+      console.log(response)
+      return this.studentNamesList = await response.data
     },
     editStudent(student: Student) {
       this.studentData = student

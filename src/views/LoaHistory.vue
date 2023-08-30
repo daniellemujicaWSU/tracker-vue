@@ -10,7 +10,7 @@ history.getHistoryData()
 <template>
     
     <h1 class="text-black pt-4 pb-5">History</h1>
-    <div v-if="history.students">
+    <div v-if="!history.loading">
         <table class="table-auto col-span-2 w-full">
             <thead>
                 <tr class="text-left">

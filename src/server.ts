@@ -23,6 +23,7 @@ export function makeServer({ environment = "development" } = {}) {
             server.loadFixtures()
         },
         routes() {
+            this.timing = 1500
             this.namespace = "api"
             this.get("2023", () => {
                 return class2023

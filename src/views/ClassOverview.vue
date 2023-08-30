@@ -32,7 +32,7 @@ classOverview.getClassData(route.params.year)
             <h1 class="text-black pb-5">Class {{ route.params.year }}</h1>
             <iconToolTip :msg="studentCardMsg" class="ml-1"></iconToolTip>
         </div>
-        <div v-if="classOverview.classData" class="grid grid-cols-4 gap-2 justify-items-stretch">
+        <div v-if="!classOverview.loading" class="grid grid-cols-4 gap-2 justify-items-stretch">
             <CalendarYearColumn :calendarYear="classOverview.classData.ms1" msYear="MS1" :collapseCard="toggleState"></CalendarYearColumn>
             <CalendarYearColumn :calendarYear="classOverview.classData.ms2" msYear="MS2" :collapseCard="toggleState"></CalendarYearColumn>
             <CalendarYearColumn :calendarYear="classOverview.classData.ms3" msYear="MS3" :collapseCard="toggleState"></CalendarYearColumn>
@@ -40,9 +40,9 @@ classOverview.getClassData(route.params.year)
         </div>
         <div v-else class="grid grid-cols-4 gap-2 justify-items-stretch mb-6">
             <div v-for="column in 4" :key="column">
-                <SkeletonLoader elementW="100%" elementH="14rem" margin="0 0 1.25rem 0"></SkeletonLoader>
+                <SkeletonLoader elementW="100%" elementH="18rem" margin="0 0 1.25rem 0"></SkeletonLoader>
                 <div v-for="card in 4" :key="card">
-                    <SkeletonLoader elementW="100%" elementH="6rem" margin="0 0 1.25rem 0"></SkeletonLoader>
+                    <SkeletonLoader elementW="100%" elementH="12rem" margin="0 0 1.25rem 0"></SkeletonLoader>
                 </div>
             </div>
         </div>

@@ -2,7 +2,6 @@
     import { RouterLink } from 'vue-router'
     import moment from 'moment'
     import ClassLink from "@/components/ClassLink.vue"
-
     const graduatingYear = {
         "MS4": moment().year(),
         "MS3": moment().year() + 1,
