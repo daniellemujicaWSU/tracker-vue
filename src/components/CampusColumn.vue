@@ -2,7 +2,7 @@
 import { type CampusOverview } from '@/types'
 import CampusCapacityCard from './CampusCapacityCard.vue';
 defineProps<{
-    overview?: CampusOverview
+    overview: CampusOverview
 }>()
 
 const CampusColor = [
@@ -21,9 +21,8 @@ const setCampusColor = (campus: string) => {
 <template>
    <div v-if="overview">
         <h2 class="p-3 text-center text-white capitalize font-medium" :class="[setCampusColor(overview.campus)]">{{ overview.campus }}</h2>
-            <div v-for="clinicYear, index in overview.clinicalYears" :key="index">
-                <CampusCapacityCard :clinicalYear="clinicYear" :campusName="overview.campus"></CampusCapacityCard>
-            </div>
-            
+        <div v-for="clinicYear, index in overview.clinicalYears" :key="index">
+            <CampusCapacityCard :clinicalYear="clinicYear" :campusName="overview.campus"></CampusCapacityCard>
+        </div>
    </div>
 </template>

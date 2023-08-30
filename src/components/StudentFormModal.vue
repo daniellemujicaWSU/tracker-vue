@@ -92,7 +92,7 @@
                             {{ name }}
                         </li>
                     </ul>
-                    <span v-if="v$.name.$error" class="text-red-600 text-xs">Student name is required</span>
+                    <span v-if="v$.name.$error" class="text-red-600 text-xs absolute">Student name is required</span>
                 </label>
                 <label class="block" for="type">
                     <span>Type</span>
@@ -100,7 +100,7 @@
                         <option value="LOA" selected>LOA</option>
                         <option value="campusChange">Campus Change</option>
                     </select>
-                    <span v-if="v$.changeType.$error" class="text-red-600 text-xs">Type is required</span>
+                    <span v-if="v$.changeType.$error" class="text-red-600 text-xs absolute">Type is required</span>
                 </label>
                 <label class="block" for="loaReason">
                     <span>LOA Reason</span>
@@ -122,12 +122,12 @@
                         <option value="ms3">MS3</option>
                         <option value="ms4">MS4</option>
                     </select>
-                    <span v-if="v$.academicYear.$error" class="text-red-600 text-xs">type is required</span>
+                    <span v-if="v$.academicYear.$error" class="text-red-600 text-xs absolute">type is required</span>
                 </label>
                 <label class="block" for="dateOut">
                     <span>Depart Date</span>
                     <input class="block rounded-md border-gray-300 shadow-sm w-full" type="text" id="dateOut" v-model="state.departDate">
-                    <span v-if="v$.departCampus.required.$error" class="text-red-600 text-xs">Depart date is required</span>
+                    <span v-if="v$.departCampus.$error" class="text-red-600 text-xs absolute">Depart date is required</span>
                 </label>
                 <label class="block" for="departingCampus">
                     <span>Departing Campus</span>
@@ -137,12 +137,12 @@
                         <option value="Tricities">Tricities</option>
                         <option value="Vancouver">Vancouver</option>
                     </select>
-                    <span v-if="v$.departCampus.$error" class="text-red-600 text-xs">Departing campus is required</span>
+                    <span v-if="v$.departCampus.$error" class="text-red-600 text-xs absolute">Departing campus is required</span>
                 </label>
                 <label class="block" for="dateIn">
                     <span>Return Date</span>
                     <input class="block rounded-md border-gray-300 shadow-sm w-full" type="text" id="dateIn" v-model="state.returnDate">
-                    <span v-if="v$.returnDate.$error" class="text-red-600 text-xs">Return date is required</span>
+                    <span v-if="v$.returnDate.$error" class="text-red-600 text-xs absolute">Return date is required</span>
                 </label>
                 <label class="block" for="returningCampus">
                     <span>Returning Campus</span>
@@ -152,7 +152,7 @@
                         <option value="Tricities">Tricities</option>
                         <option value="Vancouver">Vancouver</option>
                     </select>
-                    <span v-if="v$.returnCampus.r$error" class="text-red-600 text-xs">Returning campus is required</span>
+                    <span v-if="v$.returnCampus.$error" class="text-red-600 text-xs absolute">Returning campus is required</span>
                 </label>
                 <label class="block col-span-4" for="notes">
                     <span>Notes</span>
