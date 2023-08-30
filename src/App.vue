@@ -17,10 +17,21 @@ const studentForm = useStudentFormStore()
       </div>
       <TabNav/>
       <RouterView></RouterView>
-      <StudentFormModal v-if="studentForm.showFormModal"></StudentFormModal>
+      <Transition>
+        <StudentFormModal v-if="studentForm.showFormModal"></StudentFormModal>
+      </Transition>
     </div>
   </header>
 </template>
 
 <style scoped>
+  .v-enter-active,
+  .v-leave-active {
+    transition: opacity 0.3s ease;
+  }
+
+  .v-enter-from,
+  .v-leave-to {
+    opacity: 0;
+  }
 </style>
