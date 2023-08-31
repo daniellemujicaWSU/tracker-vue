@@ -39,27 +39,41 @@ const setImg = (img: string | undefined) => {
                 </div>
                 <i class="fa-regular fa-user-pen justify-self-end cursor-pointer" @click="studentForm.editStudent(student)"></i>
             </div>
-            <div class="grid grid-cols-3 gap-4" v-if="!collapseCard">
-                <div class="border-2 border-black p-1 text-sm rounded-md">
-                    <i class="fa-regular fa-user-minus"></i>
-                    <p>Out:</p>
-                    <p>{{ student.departDate }}</p>
-                    <p>{{ student.departCampus }}</p>
+            <Transition name="fadeHeight">
+                <div class="grid grid-cols-3 gap-4" v-if="!collapseCard">
+                    <div class="border-2 border-black p-1 text-sm rounded-md">
+                        <i class="fa-regular fa-user-minus"></i>
+                        <p>Out:</p>
+                        <p>{{ student.departDate }}</p>
+                        <p>{{ student.departCampus }}</p>
+                    </div>
+                    <div class="border-2 border-black p-1 text-sm rounded-md">
+                        <i class="fa-regular fa-user-plus"></i>
+                        <p>In:</p>
+                        <p>{{ student.returnDate }}</p>
+                        <p>{{ student.returnCampus }}</p>
+                    </div>
+                    <div class="border-2 border-black p-1 text-sm rounded-md">
+                        <i class="fa-regular fa-circle-question"></i>
+                        <p>Type/Reason:</p>
+                        <p>{{ student.type }}</p>
+                        <p>{{ student.reason }}</p>
+                    </div>
                 </div>
-                <div class="border-2 border-black p-1 text-sm rounded-md">
-                    <i class="fa-regular fa-user-plus"></i>
-                    <p>In:</p>
-                    <p>{{ student.returnDate }}</p>
-                    <p>{{ student.returnCampus }}</p>
-                </div>
-                <div class="border-2 border-black p-1 text-sm rounded-md">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>Type/Reason:</p>
-                    <p>{{ student.type }}</p>
-                    <p>{{ student.reason }}</p>
-                </div>
-            </div>
+            </Transition>
         </div>
     </div>
 </template>
 
+<style scoped>
+    .fadeHeight-enter-active,
+    .fadeHeight-leave-active {
+        transition: all 0.2s;
+        max-height: 230px;
+    }
+    .fadeHeight-enter,
+    .fadeHeight-leave-to {
+        max-height: 0px;
+        opacity: 0;
+    }
+</style>

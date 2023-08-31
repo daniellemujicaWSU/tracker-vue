@@ -8,8 +8,6 @@ import iconToolTip from '@/components/iconToolTip.vue'
 import { useClassOverview } from '@/stores/classOverview'
 
 const classOverview = useClassOverview()
-
-
 const route = useRoute()
 const toggleState = ref(false)
 const collapseMsg = ref('Collapse cards allows you to toggle student cards between a closed state and open state. The open state will show all info, the closed state will only show the profile image and student name.')
@@ -19,7 +17,9 @@ watch(route, (to) => {
     classOverview.getClassData(to.params.year)
 })
 
-classOverview.getClassData(route.params.year)
+classOverview.getClassData(route.params.year).then({
+
+})
 </script>
 
 <template>
@@ -33,10 +33,10 @@ classOverview.getClassData(route.params.year)
             <iconToolTip :msg="studentCardMsg" class="ml-1"></iconToolTip>
         </div>
         <div v-if="!classOverview.loading" class="grid grid-cols-4 gap-2 justify-items-stretch">
-            <CalendarYearColumn :calendarYear="classOverview.classData.ms1" msYear="MS1" :collapseCard="toggleState"></CalendarYearColumn>
-            <CalendarYearColumn :calendarYear="classOverview.classData.ms2" msYear="MS2" :collapseCard="toggleState"></CalendarYearColumn>
-            <CalendarYearColumn :calendarYear="classOverview.classData.ms3" msYear="MS3" :collapseCard="toggleState"></CalendarYearColumn>
-            <CalendarYearColumn :calendarYear="classOverview.classData.ms4" msYear="MS4" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms1" msYear="MS1" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms2" msYear="MS2" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms3" msYear="MS3" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms4" msYear="MS4" :collapseCard="toggleState"></CalendarYearColumn>
         </div>
         <div v-else class="grid grid-cols-4 gap-2 justify-items-stretch mb-6">
             <div v-for="column in 4" :key="column">

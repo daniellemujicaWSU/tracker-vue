@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { computed, ref, reactive, onMounted } from 'vue'
+    import { computed, ref, reactive } from 'vue'
     import { useStudentFormStore } from '@/stores/studentForm'
     import { useVuelidate } from "@vuelidate/core"
     import { required } from "@vuelidate/validators"

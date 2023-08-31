@@ -68,4 +68,3 @@ export interface History {
 export interface StudentList {
   names: string[]
 }
-  
