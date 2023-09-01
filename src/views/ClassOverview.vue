@@ -17,9 +17,7 @@ watch(route, (to) => {
     classOverview.getClassData(to.params.year)
 })
 
-classOverview.getClassData(route.params.year).then({
-
-})
+classOverview.getClassData(route.params.year)
 </script>
 
 <template>

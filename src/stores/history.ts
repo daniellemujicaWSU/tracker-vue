@@ -15,6 +15,6 @@ export const useHistory = defineStore('history', {
             const response = await axios.get(`/api/history`)
             this.students = await response.data
             this.loading = false
-        },
+        }
     }
   })

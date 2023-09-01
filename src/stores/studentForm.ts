@@ -23,21 +23,20 @@ export const useStudentFormStore = defineStore('studentForm', {
     },
     async getStudentNames() {
       const response = await axios.get(`/api/studentNames`)
-      console.log(response)
       return this.studentNamesList = await response.data
     },
     editStudent(student: Student) {
       this.studentData = student
       this.showForm(true)
     },
-    async updateStudent(student: Student) {
+    async updateAddStudent(student: Student) {
       console.log(student, ' in studentForm store')
       //create or update student
+      //import classOverview store to run update on 
     },
     cancelEdit() {
       this.studentData = {} as Student
       this.showForm(false)
     }
-  },
-
+  }
 })
