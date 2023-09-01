@@ -12,7 +12,7 @@
         <div v-for="year in classOverview.graduatingYear" :key="year" class="flex space-x-4">
             <ClassLink :year="year"/>
         </div>
-        <RouterLink to="/history">History (graduated)</RouterLink>
+        <!-- <RouterLink to="/history">History (graduated)</RouterLink> -->
     </nav>
 </template>
 
