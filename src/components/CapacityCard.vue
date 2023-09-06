@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { type CalendarYear } from '@/types'
-import { type ClinicalYear } from '@/types';
+
 defineProps<{
     date: CalendarYear,
     border: string

@@ -14,7 +14,7 @@
         name: studentForm.studentData.name,
         type: studentForm.studentData.type,
         reason: studentForm.studentData.reason,
-        academicYear: studentForm.studentData.academicYear,
+        curriculumYear: studentForm.studentData.curriculumYear,
         departDate: studentForm.studentData.departDate,
         departCampus: studentForm.studentData.departCampus,
         returnDate: studentForm.studentData.returnDate,
@@ -26,7 +26,7 @@
         return {
             name: { required },
             changeType: {required },
-            academicYear: { required },
+            curriculumYear: { required },
             departDate: { required },
             departCampus: { required },
             returnDate: { required },
@@ -40,7 +40,7 @@
     const submitForm = () => {
         v$.value.$validate();
         if (!v$.value.$error) {
-            studentForm.updateStudent(state)
+            studentForm.updateAddStudent(state)
         }
     }
 
@@ -114,15 +114,15 @@
                         <option value="Research">Research</option>
                     </select>
                 </label>
-                <label class="block" for="academicYear">
-                    <span>Academic Year</span>
-                    <select class="block rounded-md border-gray-300 shadow-sm w-full" name="academicYear" id="academicYear" v-model="state.academicYear">
+                <label class="block" for="curriculumYear">
+                    <span>Curiculum Year</span>
+                    <select class="block rounded-md border-gray-300 shadow-sm w-full" name="curriculumYear" id="curriculumYear" v-model="state.curriculumYear">
                         <option value="ms1">MS1</option>
                         <option value="ms2">MS2</option>
                         <option value="ms3">MS3</option>
                         <option value="ms4">MS4</option>
                     </select>
-                    <span v-if="v$.academicYear.$error" class="text-red-600 text-xs absolute">type is required</span>
+                    <span v-if="v$.curriculumYear.$error" class="text-red-600 text-xs absolute">type is required</span>
                 </label>
                 <label class="block" for="dateOut">
                     <span>Depart Date</span>

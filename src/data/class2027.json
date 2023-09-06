@@ -2,16 +2,18 @@
     "class": "2023",
     "ms1": {
         "currentYear": false,
-        "academicYear": "2019-2020",
+        "academicYear": "2023-2024",
         "campuses": [
             {
+                "//backend/database notes": "In, out, current are calculated on the backend",
                 "campus": "E",
                 "capacity": 23,
                 "current": 24,
-                "in": 2,
+                "in": 2, 
                 "out": 1,
                 "students": [
                     {
+                        "//backend/database notes": "In, out, current are calculated on the backend",
                         "id": 1,
                         "name": "Michael Scott",
                         "departDate": "Apr 24, 2019",
@@ -20,7 +22,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "id": 2,
@@ -31,7 +33,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             },
@@ -51,7 +53,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "id": 4,
@@ -62,7 +64,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             },
@@ -82,7 +84,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "id": 6,
@@ -93,7 +95,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             },
@@ -113,7 +115,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "id": 8,
@@ -124,7 +126,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             }
@@ -132,7 +134,7 @@
     },
     "ms2": {
         "currentYear": false,
-        "academicYear": "2020-2021",
+        "academicYear": "2024-2025",
         "campuses": [
             {
                 "campus": "E",
@@ -150,7 +152,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "id": 10,
@@ -161,7 +163,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             },
@@ -181,7 +183,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "id": 12,
@@ -192,7 +194,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             },
@@ -212,7 +214,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "id": 14,
@@ -223,7 +225,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             },
@@ -243,7 +245,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "id": 16,
@@ -254,7 +256,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             }
@@ -262,7 +264,7 @@
     },
     "ms3": {
         "currentYear": false,
-        "academicYear": "2021-2022",
+        "academicYear": "2025-2026",
         "campuses": [
             {
                 "campus": "E",
@@ -280,7 +282,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "id": 18,
@@ -291,7 +293,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             },
@@ -311,7 +313,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "id": 20,
@@ -322,7 +324,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             },
@@ -342,7 +344,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "id": 22,
@@ -353,7 +355,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             },
@@ -373,7 +375,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "id": 24,
@@ -384,7 +386,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             }
@@ -392,7 +394,7 @@
     },
     "ms4": {
         "currentYear": true,
-        "academicYear": "2022-2023",
+        "academicYear": "2026-2027",
         "campuses": [
             {
                 "campus": "E",
@@ -410,7 +412,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "id": 26,
@@ -421,7 +423,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             },
@@ -441,7 +443,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "id": 28,
@@ -452,7 +454,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             },
@@ -472,7 +474,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "id": 30,
@@ -483,7 +485,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             },
@@ -503,7 +505,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "id": 32,
@@ -514,7 +516,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             }

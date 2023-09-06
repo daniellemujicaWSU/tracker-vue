@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { type CalendarYear } from '@/types'
+import { useClassOverview } from '@/stores/classOverview'
+
+const classOverview = useClassOverview()
 defineProps<{
-    date?: CalendarYear,
+    date: CalendarYear,
     year: string,
     currentClassTotal: number
 }>()
@@ -26,11 +29,11 @@ const setCampusColor = (bgType: string, index: number) => {
 </script>
 
 <template>
-    <div class="border-3 border-black col-span-1 pt-2 transition-colors" v-if="date" :class="date.currentYear ? 'bg-pacific-blue border-pacific-blue' : 'bg-white'">
-        <h2 class="pl-2 pb-5" :class="date.currentYear ? 'text-white' : ''">{{ date.academicYear }} ({{ year }})</h2>
+    <div class="border-3 border-black col-span-1 pt-2 transition-colors" v-if="date" :class="classOverview.setCurrentYear(date.academicYear) ? 'bg-pacific-blue border-pacific-blue' : 'bg-white'">
+        <h2 class="pl-2 pb-5" :class="classOverview.setCurrentYear(date.academicYear) ? 'text-white' : ''">{{ date.academicYear }} ({{ year }})</h2>
         <table class="table-auto col-span-2 w-full">
                 <thead>
-                    <tr class="border-b-3 border-black" :class="date.currentYear ? 'text-white border-pacific-blue' : ''">
+                    <tr class="border-b-3 border-black" :class="classOverview.setCurrentYear(date.academicYear) ? 'text-white border-pacific-blue' : ''">
                         <th>Campus</th>
                         <th>Capacity</th>
                         <th>Current</th>

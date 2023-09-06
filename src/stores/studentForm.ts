@@ -22,7 +22,7 @@ export const useStudentFormStore = defineStore('studentForm', {
       }  
     },
     async getStudentNames() {
-      const response = await axios.get(`/api/studentNames`)
+      const response = await axios.get(`/api/loa/student-names`)
       return this.studentNamesList = await response.data
     },
     editStudent(student: Student) {

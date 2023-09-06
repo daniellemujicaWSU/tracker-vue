@@ -18,7 +18,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -28,7 +28,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             },
@@ -47,7 +47,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "name": "Stanley Hudson",
@@ -57,7 +57,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             },
@@ -76,7 +76,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "name": "Nellie Bertram",
@@ -86,7 +86,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             },
@@ -105,7 +105,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     },
                     {
                         "name": "Jan Levison",
@@ -115,7 +115,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms1"
+                        "curriculumYear": "ms1"
                     }
                 ]
             }
@@ -140,7 +140,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -150,7 +150,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             },
@@ -169,7 +169,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "name": "Gabe Lewis",
@@ -179,7 +179,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             },
@@ -198,7 +198,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -208,7 +208,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             },
@@ -227,7 +227,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -237,7 +237,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms2"
+                        "curriculumYear": "ms2"
                     }
                 ]
             }
@@ -262,7 +262,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -272,7 +272,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             },
@@ -291,7 +291,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -301,7 +301,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             },
@@ -320,7 +320,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -330,7 +330,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             },
@@ -349,7 +349,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -359,7 +359,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms3"
+                        "curriculumYear": "ms3"
                     }
                 ]
             }
@@ -384,7 +384,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -394,7 +394,7 @@
                         "returnCampus": "Everett",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             },
@@ -413,7 +413,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -423,7 +423,7 @@
                         "returnCampus": "Spokane",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             },
@@ -442,7 +442,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -452,7 +452,7 @@
                         "returnCampus": "Tricities",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             },
@@ -471,7 +471,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     },
                     {
                         "name": "Jim Halbbert",
@@ -481,7 +481,7 @@
                         "returnCampus": "Vancouver",
                         "reason": "Research",
                         "type": "LOA",
-                        "academicYear": "ms4"
+                        "curriculumYear": "ms4"
                     }
                 ]
             }

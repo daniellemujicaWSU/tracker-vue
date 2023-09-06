@@ -12,7 +12,7 @@ export const useCampusOverview = defineStore('campusOverview', {
     //actions meant to mutate store data
     actions: {
         async getCampusData() {
-            const response = await axios.get(`/api/campusOverview`)
+            const response = await axios.get(`/api/loa/campus-overview`)
             this.campusData = await response.data
             this.loading = false
         }

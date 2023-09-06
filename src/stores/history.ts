@@ -12,7 +12,7 @@ export const useHistory = defineStore('history', {
     //actions meant to mutate store data
     actions: {
         async getHistoryData() {
-            const response = await axios.get(`/api/history`)
+            const response = await axios.get(`/api/loa/history`)
             this.students = await response.data
             this.loading = false
         }

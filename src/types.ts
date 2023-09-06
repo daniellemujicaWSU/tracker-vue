@@ -53,7 +53,7 @@ export interface Student {
     name: string;
     type: string;
     reason?: string;
-    academicYear: string;
+    curriculumYear: string;
     departDate: string;
     departCampus: string;
     returnDate: string;

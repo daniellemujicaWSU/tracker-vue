@@ -17,21 +17,22 @@ export const useClassOverview = defineStore('classOverview', {
         classDataKey: '' as string | undefined,
         loading: true,
         graduatingYear: {
-          "MS4": moment().year(),
-          "MS3": moment().year() + 1,
-          "MS2": moment().year() + 2,
-          "MS1": moment().year() + 3
+          "MS4": moment().quarter() > 2 ? moment().year() + 1 : moment().year(),
+          "MS3": moment().quarter() > 2 ? moment().year() + 2 : moment().year() + 1,
+          "MS2": moment().quarter() > 2 ? moment().year() + 3 : moment().year() + 2,
+          "MS1": moment().quarter() > 2 ? moment().year() + 4 : moment().year() + 3
         }
       }
     },
     //actions meant to mutate store data
     actions: {
         async getClassData(route: string | string[]) {
+          this.loading = true
           const prop = route.toString()
           this.classDataKey = this.setClassYear(prop)
-          
+
           if(Object.keys(this.classData[this.classDataKey as keyof typeof this.classData]).length === 0) {
-            const response = await axios.get(`/api/${route}`)
+            const response = await axios.get(`/api/loa/get-class/${route}`)
             this.classData[this.classDataKey as keyof typeof this.classData] = await response.data
             this.currentclassData = this.classData[this.classDataKey as keyof typeof this.classData]
           } else {
@@ -44,6 +45,13 @@ export const useClassOverview = defineStore('classOverview', {
         },
         setClassYear(prop: string) {
           return Object.keys(this.graduatingYear).find((key) => this.graduatingYear[key as keyof typeof this.graduatingYear] === parseInt(prop))
-        }
+        },
+        setCurrentYear(year: string) {
+          const splitYears = year.split('-')
+          const from = moment( `8-01-${splitYears[0]}`, 'MM-DD-YYYY')
+          const to = moment( `6-30-${splitYears[1]}`, 'MM-DD-YYYY')
+          const current =  moment( `${moment().month()}-${moment().day()}-${moment().year()}`, 'MM-DD-YYYY')
+          return moment(current).isBetween(from, to)
+        },
     }
 })
