@@ -2,10 +2,9 @@
 import { type Student } from '@/types'
 import placeholderImg from '../assets/placeholder.png'
 import { useStudentFormStore } from '@/stores/studentForm'
+import { inject } from 'vue'
 
 const studentForm = useStudentFormStore()
-
-
 defineProps<{
     students: Student[],
     collapseCard: boolean
@@ -26,6 +25,8 @@ const setCampusColor = (campus: string) => {
 const setImg = (img: string | undefined) => {
     return img ? img : placeholderImg
 }
+const userPermission = inject('userPermission')
+const hasPermission = userPermission === 'true'
 
 </script>
 
@@ -37,7 +38,7 @@ const setImg = (img: string | undefined) => {
                     <img :src="setImg(student.img)" alt="student headshot">
                     <h5 class="self-center justify-self-start pl-2">{{ student.name }}</h5>
                 </div>
-                <i class="fa-regular fa-user-pen justify-self-end cursor-pointer" @click="studentForm.editStudent(student)"></i>
+                <i v-if="hasPermission" class="fa-regular fa-user-pen justify-self-end cursor-pointer" @click="studentForm.editStudent(student)"></i>
             </div>
             <Transition name="fadeHeight">
                 <div class="grid grid-cols-3 gap-4" v-if="!collapseCard">
@@ -56,8 +57,9 @@ const setImg = (img: string | undefined) => {
                     <div class="border-2 border-black p-1 text-sm rounded-md">
                         <i class="fa-regular fa-circle-question"></i>
                         <p>Type/Reason:</p>
-                        <p>{{ student.type }}</p>
-                        <p>{{ student.reason }}</p>
+                        <p v-if="hasPermission">{{ student.type }}</p>
+                        <p v-if="hasPermission">{{ student.reason }}</p>
+                        <p v-else>Information hidden</p>
                     </div>
                 </div>
             </Transition>
