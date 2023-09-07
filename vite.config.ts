@@ -17,9 +17,9 @@ export default defineConfig({
     outDir: '../colleagues/public/js/tracker',
     rollupOptions: {
       output: {
-        entryFileNames: `assets/[name].js`,
-        chunkFileNames: `assets/[name].js`,
-        assetFileNames: `assets/[name].[ext]`
+        entryFileNames: `assets/loa_tracker.js`,
+        chunkFileNames: `assets/loa_tracker.js`,
+        assetFileNames: `assets/loa_tracker.[ext]`
       }
     }
   }
