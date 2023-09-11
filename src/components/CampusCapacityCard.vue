@@ -23,7 +23,7 @@ const setCampusColor = (campus: string, type: string) => {
             <h2 class="pl-3 pt-3 pb-4">Academic Year {{ clinicalYear.year }}</h2>
             <table class="table-auto col-span-2 w-full">
                     <thead>
-                        <tr class="border-b-2 border-black">
+                        <tr class="border-b-2 border-black sm:text-xs lg:text-sm">
                             <th>Class</th>
                             <th>Capacity</th>
                             <th>Current</th>
@@ -32,7 +32,7 @@ const setCampusColor = (campus: string, type: string) => {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="item, index in clinicalYear.classes" :key="index" class="text-center odd:bg-gray-100 even:bg-white">
+                        <tr v-for="item, index in clinicalYear.classes" :key="index" class="text-center odd:bg-gray-100 even:bg-white sm:text-xs lg:text-sm">
                             <td class="pt-2 pb-2">{{ item.classYear }}</td>
                             <td class="pt-2 pb-2">{{ item.capacity }}</td>
                             <td class="pt-2 pb-2"><span :class="[setCampusColor(campusName, 'ring'), 'rounded-full ring px-3.5 py-1.5']">{{ item.current }}</span></td>

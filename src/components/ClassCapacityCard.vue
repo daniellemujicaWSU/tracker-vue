@@ -30,10 +30,10 @@ const setCampusColor = (bgType: string, index: number) => {
 
 <template>
     <div class="border-3 border-black col-span-1 pt-2 transition-colors" v-if="date" :class="classOverview.setCurrentYear(date.academicYear) ? 'bg-pacific-blue border-pacific-blue' : 'bg-white'">
-        <h2 class="pl-2 pb-5" :class="classOverview.setCurrentYear(date.academicYear) ? 'text-white' : ''">{{ date.academicYear }} ({{ year }})</h2>
+        <h2 class="pl-2 pb-5 sm:text-sm xl:text-xl" :class="classOverview.setCurrentYear(date.academicYear) ? 'text-white' : ''">{{ date.academicYear }} ({{ year }})</h2>
         <table class="table-auto col-span-2 w-full">
                 <thead>
-                    <tr class="border-b-3 border-black" :class="classOverview.setCurrentYear(date.academicYear) ? 'text-white border-pacific-blue' : ''">
+                    <tr class="border-b-3 border-black sm:text-xs xl:text-sm" :class="classOverview.setCurrentYear(date.academicYear) ? 'text-white border-pacific-blue' : ''">
                         <th>Campus</th>
                         <th>Capacity</th>
                         <th>Current</th>
@@ -42,7 +42,7 @@ const setCampusColor = (bgType: string, index: number) => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="item, index in date.campuses" :key="index" class="text-center odd:bg-gray-100 even:bg-white">
+                    <tr v-for="item, index in date.campuses" :key="index" class="text-center odd:bg-gray-100 even:bg-white sm:text-xs xl:text-sm">
                         <td class="pt-2 pb-2 text-white"><span :class="[setCampusColor('bg', index), 'rounded-full py-2 px-5']">{{ item.campus }}</span></td>
                         <td class="pt-2 pb-2">{{ item.capacity }}</td>
                         <td class="pt-2 pb-2"><span :class="[setCampusColor('ring', index), 'rounded-full ring px-3.5 py-1.5']">{{ item.current }}</span></td>
@@ -51,7 +51,7 @@ const setCampusColor = (bgType: string, index: number) => {
                     </tr>
                 </tbody>
                 <tfoot >
-                    <tr class="bg-gray-100"><td colspan='5' class="pt-2 pb-2 pr-4 text-sm text-right font-bold">Current Class Total: {{ currentClassTotal }}</td></tr>
+                    <tr class="bg-gray-100"><td colspan='5' class="pt-2 pb-2 pr-4 text-sm text-right font-bold sm:text-xs xl:text-sm">Current Class Total: {{ currentClassTotal }}</td></tr>
                 </tfoot>
         </table>
     </div>
