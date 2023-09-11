@@ -36,29 +36,29 @@ const hasPermission = userPermission === 'true'
             <div class="grid grid-cols-8" :class="collapseCard ? 'pb-0' : 'pb-3'">
                 <div class="col-span-7 flex">
                     <img :src="setImg(student.img)" alt="student headshot">
-                    <h5 class="self-center justify-self-start pl-2 sm:text-sm">{{ student.name }}</h5>
+                    <h5 class="self-center justify-self-start pl-2 sm:text-sm xl:text-base">{{ student.name }}</h5>
                 </div>
                 <i v-if="hasPermission" class="fa-regular fa-user-pen justify-self-end cursor-pointer" @click="studentForm.editStudent(student)"></i>
             </div>
             <Transition name="fadeHeight">
-                <div class="grid lg:grid-cols-3 lg:gap-2 xl:gap-4 sm:grid-cols-2 sm:gap-1" v-if="!collapseCard">
-                    <div class="border-2 border-black p-1 text-sm rounded-md sm:text-xs xl:text-sm">
+                <div class="grid lg:grid-cols-3 gap-2 sm:grid-cols-2" v-if="!collapseCard">
+                    <div class="border-2 border-black p-1 text-sm rounded-md">
                         <i class="fa-regular fa-user-minus"></i>
-                        <p>Out:</p>
-                        <p>{{ student.departDate }}</p>
-                        <p>{{ student.departCampus }}</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm">Out:</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm">{{ student.departDate }}</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm">{{ student.departCampus }}</p>
                     </div>
-                    <div class="border-2 border-black p-1 text-sm rounded-md sm:text-xs xl:text-sm">
+                    <div class="border-2 border-black p-1 text-sm rounded-md">
                         <i class="fa-regular fa-user-plus"></i>
-                        <p>In:</p>
-                        <p>{{ student.returnDate }}</p>
-                        <p>{{ student.returnCampus }}</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm">In:</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm">{{ student.returnDate }}</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm">{{ student.returnCampus }}</p>
                     </div>
-                    <div class="border-2 border-black p-1 text-sm rounded-md sm:text-xs xl:text-sm">
+                    <div class="border-2 border-black p-1 text-sm rounded-md">
                         <i class="fa-regular fa-circle-question"></i>
-                        <p>Type/Reason:</p>
-                        <p v-if="hasPermission">{{ student.type }}</p>
-                        <p v-if="hasPermission">{{ student.reason }}</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm">Type/Reason:</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm" v-if="hasPermission">{{ student.type }}</p>
+                        <p class="sm:text-xs lg:text-xs xl:text-sm" v-if="hasPermission">{{ student.reason }}</p>
                         <p v-else>Information hidden</p>
                     </div>
                 </div>

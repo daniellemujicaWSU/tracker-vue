@@ -20,7 +20,7 @@ const setCampusColor = (campus: string, type: string) => {
 <template>
     <div v-if="clinicalYear">
         <div class="border-4 mt-5" :class="[setCampusColor(campusName, 'border')]">
-            <h2 class="pl-3 pt-3 pb-4">Academic Year {{ clinicalYear.year }}</h2>
+            <h2 class="pl-3 pt-3 pb-4 sm:text-sm xl:text-base">Academic Year {{ clinicalYear.year }}</h2>
             <table class="table-auto col-span-2 w-full">
                     <thead>
                         <tr class="border-b-2 border-black sm:text-xs lg:text-sm">

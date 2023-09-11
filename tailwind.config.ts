@@ -20,6 +20,7 @@ module.exports = {
       xs: '.6rem',
       sm: '0.8rem',
       base: '1rem',
+      md: '1.25',
       xl: '1.25rem',
       '2xl': '1.563rem',
       '3xl': '1.953rem',
@@ -80,7 +81,7 @@ module.exports = {
         'h2': { fontSize: theme('fontSize.xl') },
         'h3': { fontSize: theme('fontSize.lg') },
         'h5': {fontSize: theme('fontSize.md') },
-        'p':  {fontSize: theme('fontSize.xs') },
+        'p':  {fontSize: theme('fontSize.sm') },
       })
     }),
     function ({ addComponents }) {
