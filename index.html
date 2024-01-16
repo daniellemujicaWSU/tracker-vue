@@ -15,11 +15,12 @@
     <script type="module" src="/src/main.ts"></script>
     <script>
       let loaPermission = true;
-      const permission = document.createElement('input');
+      const permission = document.createElement('input')
       permission.setAttribute('value', loaPermission)
       permission.setAttribute('type', 'hidden')
       permission.setAttribute('id', 'userPermission')
       document.body.insertBefore(permission, document.getElementById('app'))
+      window.apiUrl = '/api/loa/campus-overview'
     </script>
   </body>
 </html>

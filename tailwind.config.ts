@@ -17,7 +17,7 @@ module.exports = {
       },
     },
     fontSize: {
-      xs: '.6rem',
+      xs: '0.6rem',
       sm: '0.8rem',
       base: '1rem',
       md: '1.25',
@@ -39,11 +39,11 @@ module.exports = {
     },
     container: {
         padding: {
-          DEFAULT: '.5rem',
-          sm: '.5rem',
-          lg: '1rem',
-          xl: '1rem',
-          '2xl': '1rem',
+          DEFAULT: '0',
+          sm: '0',
+          lg: '0',
+          xl: '0',
+          '2xl': '0',
         },
     },
     fontFamily: {
@@ -51,6 +51,7 @@ module.exports = {
     },
     //add screen to match container sizes
     screens: {
+      'xs': '0px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -60,7 +61,7 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1400px',
+      'xl': '1500px',
       // => @media (min-width: 1280px) { ... }
 
       '2xl': '1600px',

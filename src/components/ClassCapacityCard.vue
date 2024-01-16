@@ -43,9 +43,9 @@ const setCampusColor = (bgType: string, index: number) => {
                 </thead>
                 <tbody>
                     <tr v-for="item, index in date.campuses" :key="index" class="text-center odd:bg-gray-100 even:bg-white sm:text-xs xl:text-sm">
-                        <td class="pt-2 pb-2 text-white"><span :class="[setCampusColor('bg', index), 'rounded-full py-2 px-3.5']">{{ item.campus }}</span></td>
+                        <td class="pt-2 pb-2 text-white"><span :class="[setCampusColor('bg', index), 'rounded-full py-2 px-4']">{{ item.campus }}</span></td>
                         <td class="pt-2 pb-2">{{ item.capacity }}</td>
-                        <td class="pt-2 pb-2"><span :class="[setCampusColor('ring', index), 'rounded-full ring px-3.5 py-1.5']">{{ item.current }}</span></td>
+                        <td class="pt-2 pb-2"><span :class="[setCampusColor('ring', index), 'rounded-full ring px-3 py-1.5']">{{ item.current }}</span></td>
                         <td class="pt-2 pb-2">{{ item.in }}</td>
                         <td class="pt-2 pb-2">{{ item.out }}</td>
                     </tr>

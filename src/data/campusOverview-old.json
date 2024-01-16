@@ -1,0 +1,403 @@
+{
+    "everett": {
+        "campus": "everett",
+        "clinicalYears": [
+            {
+                "year": "2023-2024",
+                "current": true,
+                "classes":[ 
+                    {
+                        "classYear": "2024",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "8",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "8",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2027",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    }
+                ]
+            },
+            {
+                "year": "2024-2025",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2024",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "2",
+                        "out": "3"
+                    },
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "1",
+                        "out": "2"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    }
+                ]
+            },
+            {
+                "year": "2025-2026",
+                "current": false,
+                "classes": [
+                    {
+                    "classYear": "2025",
+                    "capacity": "20",
+                    "current": "17",
+                    "in": "6",
+                    "out": "9"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "8",
+                        "out": "9"
+                    }
+                ]
+            },
+            {
+                "year": "2026-2027",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    }
+                ]
+            }
+        ]
+
+    },
+    "spokane": {
+            "campus": "spokane",
+            "clinicalYears": [
+                {
+                "year": "2023-2024",
+                "current": true,
+                "classes": [ 
+                    {
+                        "classYear": "2024",
+                        "capacity": "20",
+                        "current": "20",
+                        "in": "4",
+                        "out": "4"
+                    },
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    },
+                    
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "8",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2027",
+                        "capacity": "20",
+                        "current": "22",
+                        "in": "4",
+                        "out": "2"
+                    }
+                    
+                ]
+            },
+            {
+                "year": "2024-2025",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2024",
+                        "capacity": "20",
+                        "current": "22",
+                        "in": "4",
+                        "out": "2"
+                    },
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "20",
+                        "in": "4",
+                        "out": "4"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    }
+                ]
+            },
+            {
+                "year": "2025-2026",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "22",
+                        "in": "4",
+                        "out": "2"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "20",
+                        "in": "4",
+                        "out": "4"
+                    }
+                ]
+            },
+            {
+                "year": "2026-2027",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "22",
+                        "in": "4",
+                        "out": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "tricities": {
+            "campus": "tricities",
+            "clinicalYears": [
+                {
+                    "year": "2023-2024",
+                    "current": true,
+                    "classes": [
+
+                        {
+                            "classYear": "2024",
+                            "capacity": "20",
+                            "current": "19",
+                            "in": "4",
+                            "out": "5"
+                        },
+                        {
+                            "classYear": "2025",
+                            "capacity": "20",
+                            "current": "17",
+                            "in": "6",
+                            "out": "9"
+                        },
+                        
+                        {
+                            "classYear": "2026",
+                            "capacity": "20",
+                            "current": "19",
+                            "in": "8",
+                            "out": "9"
+                        },
+                        {
+                            "classYear": "2027",
+                            "capacity": "20",
+                            "current": "16",
+                            "in": "1",
+                            "out": "5"
+                        }
+                    ]
+                },
+            {
+                "year": "2024-2025",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2024",
+                        "capacity": "20",
+                        "current": "16",
+                        "in": "1",
+                        "out": "5"
+                    },
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "4",
+                        "out": "5"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    }
+                ]
+            },
+            {
+                "year": "2025-2026",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "16",
+                        "in": "1",
+                        "out": "5"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "4",
+                        "out": "5"
+                    }
+                ]
+            },
+            {
+                "year": "2026-2027",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "16",
+                        "in": "1",
+                        "out": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    "vancouver": {
+        "campus": "vancouver",
+        "clinicalYears": [
+                {
+                "year": "2023-2024",
+                "current": true,
+                "classes": [
+                    {
+                        "classYear": "2024",
+                        "capacity": "20",
+                        "current": "11",
+                        "in": "1",
+                        "out": "10"
+                    },
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "19",
+                        "in": "8",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2027",
+                        "capacity": "20",
+                        "current": "12",
+                        "in": "1",
+                        "out": "9"
+                    }
+                ]
+            },
+            {
+                "year": "2024-2025",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2024",
+                        "capacity": "20",
+                        "current": "12",
+                        "in": "1",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "11",
+                        "in": "1",
+                        "out": "10"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "17",
+                        "in": "6",
+                        "out": "9"
+                    }
+                ]
+            },
+            {
+                "year": "2025-2026",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2025",
+                        "capacity": "20",
+                        "current": "12",
+                        "in": "1",
+                        "out": "9"
+                    },
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "11",
+                        "in": "1",
+                        "out": "10"
+                    }
+                ]
+            },
+            {
+                "year": "2026-2027",
+                "current": false,
+                "classes": [
+                    {
+                        "classYear": "2026",
+                        "capacity": "20",
+                        "current": "12",
+                        "in": "1",
+                        "out": "9"
+                    }
+                ]
+            }
+        ]    
+    }
+}
