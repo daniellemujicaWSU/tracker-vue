@@ -13,7 +13,7 @@ defineProps<{
 const CampusColor = [
   {campus: "Everett", border: "border-everett"},
   {campus: "Spokane", border: "border-spokane"},
-  {campus: "Tricities", border: "border-tricities"},
+  {campus: "Tri-Cities", border: "border-tricities"},
   {campus: "Vancouver", border: "border-vancouver"}
 ]
 
@@ -32,13 +32,15 @@ const hasPermission = userPermission === 'true'
 
 <template>
     <div v-if="students">
-        <div v-for="student, index in students" :key="index" class="border-5 p-1 xl:p-3 mt-4 rounded-md" :class="setCampusColor(student.returnCampus)">
+        <div v-for="student, index in students" :key="index" class="border-5 p-1 xl:p-3 mt-4 rounded-md"
+            :class="setCampusColor(student.returnCampus)">
             <div class="grid grid-cols-8" :class="collapseCard ? 'pb-0' : 'pb-3'">
                 <div class="col-span-7 flex">
                     <img :src="setImg(student.img)" alt="student headshot">
                     <h5 class="self-center justify-self-start pl-2 lg:text-sm sm:text-xs xl:text-base">{{ student.name }}</h5>
                 </div>
-                <i v-if="hasPermission" class="fa-regular fa-user-pen justify-self-end cursor-pointer" @click="studentForm.editStudent(student)"></i>
+                <!-- <i v-if="hasPermission" class="fa-regular fa-user-pen justify-self-end cursor-pointer"
+                    @click="studentForm.editStudent(student)"></i> -->
             </div>
             <Transition name="fadeHeight">
                 <div class="grid xl:grid-cols-3 gap-2 lg:grid-cols-2" v-if="!collapseCard">

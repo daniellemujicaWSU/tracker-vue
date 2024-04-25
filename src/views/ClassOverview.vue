@@ -31,10 +31,10 @@ classOverview.getClassData(route.params.year)
             <iconToolTip :msg="studentCardMsg" class="ml-1"></iconToolTip>
         </div>
         <div v-if="!classOverview.loading" class="grid grid-cols-4 gap-2 justify-items-stretch">
-            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms1" msYear="MS1" :collapseCard="toggleState"></CalendarYearColumn>
-            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms2" msYear="MS2" :collapseCard="toggleState"></CalendarYearColumn>
-            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms3" msYear="MS3" :collapseCard="toggleState"></CalendarYearColumn>
-            <CalendarYearColumn :calendarYear="classOverview.currentclassData.ms4" msYear="MS4" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.MS1" msYear="MS1" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.MS2" msYear="MS2" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.MS3" msYear="MS3" :collapseCard="toggleState"></CalendarYearColumn>
+            <CalendarYearColumn :calendarYear="classOverview.currentclassData.MS4" msYear="MS4" :collapseCard="toggleState"></CalendarYearColumn>
         </div>
         <div v-else class="grid grid-cols-4 gap-2 justify-items-stretch mb-6">
             <div v-for="column in 4" :key="column">

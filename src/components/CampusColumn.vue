@@ -6,10 +6,10 @@ defineProps<{
 }>()
 
 const CampusColor = [
-  {campus: "everett", bg: "bg-everett"},
-  {campus: "spokane", bg: "bg-spokane"},
-  {campus: "tricities", bg: "bg-tricities"},
-  {campus: "vancouver", bg: "bg-vancouver"}
+  {campus: "Everett", bg: "bg-everett"},
+  {campus: "Spokane", bg: "bg-spokane"},
+  {campus: "Tri-Cities", bg: "bg-tricities"},
+  {campus: "Vancouver", bg: "bg-vancouver"}
 ]
 
 const setCampusColor = (campus: string) => {
