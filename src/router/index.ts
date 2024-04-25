@@ -8,18 +8,19 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/loa/overview',
       name: 'campusLoadOverView',
-      component: CampusLoadOverview
+      component: CampusLoadOverview,
+      alias: ['/loa', '/']
     },
     {
-      path: '/class/:year',
+      path: '/loa/class/:year',
       name: 'classOverview',
       component: ClassOverview,
       props: true
     },
     // {
-    //   path: '/history',
+    //   path: '/loa/history',
     //   name: 'history',
     //   component: LoaHistory
     // },

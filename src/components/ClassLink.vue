@@ -7,5 +7,5 @@
 </script>
 
 <template>
-    <RouterLink :to="{path: `/class/${props.year}`}">Class {{ props.year }}</RouterLink>
+    <RouterLink :to="{path: `/loa/class/${props.year}`}">Class {{ props.year }}</RouterLink>
 </template>
