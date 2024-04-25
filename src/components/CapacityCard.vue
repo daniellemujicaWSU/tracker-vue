@@ -1,8 +1,8 @@
-<script setup lang="ts">
-import { type CalendarYear } from '@/types'
+<!-- <script setup lang="ts">
+import { type MSY } from '@/types'
 
 defineProps<{
-    date: CalendarYear,
+    date: MSY,
     border: string
 }>()
 
@@ -50,4 +50,4 @@ const setCampusColor = (bgType: string, index: number) => {
         </table>
     </div>
 </template>
-
+ -->

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { type CalendarYear } from '@/types'
+import { type MSY } from '@/types'
 import { useClassOverview } from '@/stores/classOverview'
 
 defineProps<{
-    academicYearOverview: CalendarYear,
+    academicYearOverview: MSY,
     year: string,
     currentClassTotal: number
 }>()

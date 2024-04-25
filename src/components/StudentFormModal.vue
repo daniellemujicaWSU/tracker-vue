@@ -19,8 +19,8 @@
         departCampus: studentForm.studentData.departCampus,
         returnDate: studentForm.studentData.returnDate,
         returnCampus: studentForm.studentData.returnCampus,
-        notes: studentForm.studentData.notes,
-        id: studentForm.studentData.id
+        // notes: studentForm.studentData.notes,
+        // id: studentForm.studentData.id
     })
     const rules = computed(() => {
         return {
@@ -156,7 +156,7 @@
                 </label>
                 <label class="block col-span-4" for="notes">
                     <span>Notes</span>
-                    <textarea class="block rounded-md border-gray-300 shadow-sm w-full" name="notes" id="notes" cols="30" rows="5" v-model="studentForm.studentData.notes"></textarea>
+                    <!-- <textarea class="block rounded-md border-gray-300 shadow-sm w-full" name="notes" id="notes" cols="30" rows="5" v-model="studentForm.studentData.notes"></textarea> -->
                 </label>
             </form>
             <div class="grid grid-cols-8 mt-8 gap-2">

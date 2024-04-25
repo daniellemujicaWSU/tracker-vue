@@ -18,7 +18,7 @@ export const useCampusOverview = defineStore('campusOverview', {
         async getCampusData() {
           // const response = await axios.get(`/api/loa/campus-overview`)
           const response = await axios.get(this.apiURl)
-          console.log(import.meta.env.PROD, 'are we in prod')
+          // console.log(import.meta.env.DEV, 'are we in prod')
           this.campusData = await response.data
           this.loading = false
         }
